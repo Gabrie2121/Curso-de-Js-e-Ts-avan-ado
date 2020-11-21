@@ -1,2 +1,1 @@
-var solo = "GAYYY"
-console.log(solo); 
+console.log("Hello World")
