@@ -15,7 +15,13 @@ for (let i = 0; i < elementos.length; i++) {
     //criou o elemento da tag
     let el = document.createElement(tag);
     //inseriu o texto
-    el.innerHTML = texto;
+    //quando so tem texto pode colocar somente innerText
+    el.innerText = texto;
+    //NÓ DE TEXTO
+    //da para usar esse createTextNode tambem quando é texto
+    let textoCriado = document.createTextNode(texto)
+    console.log(textoCriado)
     //e colocou pra exibir
     place.appendChild(el);
+
 }
