@@ -21,3 +21,8 @@ while(rand !== 10){
     i++
     console.log(i)
 }
+//ele executa uma vez sempre seja la o que acontecer
+do{
+    rand = random(1,50)
+    console.log('Não')
+}while(rand !== 10);
