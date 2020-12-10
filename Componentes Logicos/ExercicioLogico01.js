@@ -1,3 +1,4 @@
+//ver qual maior numero, o 1 ou o 2
 const maior = (num1,num2)=>{
     if(num1>num2){
          return `o numero ${num1} é maior que o numero ${num2}`
