@@ -29,7 +29,7 @@ try {
     const hora = retornaHora(dat);
     console.log(hora);
 }catch(e){
-    console.log('tratar erro')
+    console.log('tratar erro ')
 }finally{
     console.log('bom dia')
 }
