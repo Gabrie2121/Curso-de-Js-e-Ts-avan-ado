@@ -7,5 +7,5 @@ function criaOutra(){
     }
 }
 const funcao = criaOutra();
-//console.dir === console.log no v8
+//console.dir === console.log
 console.dir(funcao)
