@@ -72,7 +72,7 @@ const adicionaTarefasSalvas=_=>{
     //converteu de volta de string pra array
     const listaDeTarefas = JSON.parse(tarefas);
     for(let tarefa of listaDeTarefas){
-        criaTarefa(tarefa)
+        criaTarefa(tarefa)  
     }
 }
 adicionaTarefasSalvas();
