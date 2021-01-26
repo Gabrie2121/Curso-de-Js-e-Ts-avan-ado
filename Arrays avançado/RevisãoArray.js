@@ -21,4 +21,6 @@ console.log(novoSlice)
 //converter string -> array
 const name = 'Gabriel Miranda Barboza'
 const names = name.split(' ')//split separa por valores escolhidos
+const namie = names.join(' ')//contrario do split
 console.log(names)
+console.log(namie)
