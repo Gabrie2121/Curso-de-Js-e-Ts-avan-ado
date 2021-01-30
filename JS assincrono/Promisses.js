@@ -10,12 +10,15 @@ function esperaAi(msg, tempo) {
     //resolve == codigo executo sucesso = resolve
     //reject == codigo deu erro = rejeita ele
     return new Promise((resolve, reject) => {
+        //parametro unico resolve que age como return
+        if (typeof msg !== 'string') {
+            reject('O valor informado precisa ser letras ou letras e numeros')
+            return;
+        }
         setTimeout(() => {
-            //parametro unico resolve que age como return
-            if (typeof msg !== 'string') {
-                reject('Não pode só numeros')
-            }
+            
             resolve(msg);
+            return;
         }, tempo)
     })
 }
