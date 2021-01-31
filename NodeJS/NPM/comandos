@@ -1,0 +1,43 @@
+#npm install 
+é para instalar a dependencia
+
+#npm install 'dependencia' -E
+é para instalar a versão atual da depedencia
+
+#npm update 
+é para atualizar
+
+#npm install 'depedencia' --save-dev
+mover a dependencia para dependencia de desenvolvimento
+
+#npm install 'depedencia' --save-prod 
+mover a dependencia para depedencia de producao
+
+#npm install 'dependencia'@versão' -E
+instalar uma versão especifica da depedencia e o -E para atualizar
+
+versões:
+2.1.0
+major.minor.patch
+
+patch = correção de bugs
+minor = adicionou um recurso novo
+major = vai meio que mexer em tudo, e gerar novos bugs
+
+^2.1.0 
+o ^ vai mudar atualizar a minor e o patch
+~2.1.0
+o ~ vai mudar somente o patch
+
+#npm install 'dependencia'@4.x
+vai atualizar para a ultima vesão disponivel do major escolhido
+
+#npm uninstall 'dependencia
+vai desatualizar
+
+#npm ls --septh=0
+ver apenas as extensões instaladas
+o septh=0 diz a quantidade de aprofundação dentro das pastas
+
+#npm outdated
+ver os pacotes desatualizados
